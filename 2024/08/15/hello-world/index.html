@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Hello World |  Hello</title>
+      <title>Hello World |  阿婧的空间</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -49,6 +49,17 @@
 <body>
   <div id="app">
     
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
       
     <main class="content on">
       <section class="outer">
@@ -216,8 +227,8 @@
     <ul>
       <li>
         Copyrights &copy;
-        2015-2024
-        <i class="ri-heart-fill heart_icon"></i> John Doe
+        2024
+        <i class="ri-heart-fill heart_icon"></i> Loki hou
       </li>
     </ul>
     <ul>
@@ -269,7 +280,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hello"></a>
+    <a href="/"><img src="/images/ayer-side.svg" alt="阿婧的空间"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -295,15 +306,15 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
+      <a class="nav-item-link" target="_blank" rel="noopener" href="https://weibo.com/newlogin">摄影</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
+      <a class="nav-item-link" target="_blank" rel="noopener" href="https://www.xiaohongshu.com/explore">友链</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
+      <a class="nav-item-link" href="/2024/about">关于我</a>
     </li>
     
   </ul>
@@ -503,6 +514,10 @@
 
 <!-- ClickBoom1 -->
 
+<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+ 
 <!-- ClickBoom2 -->
 
 <!-- CodeCopy -->
